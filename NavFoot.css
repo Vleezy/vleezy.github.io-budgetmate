@@ -51,7 +51,7 @@ body {
   height: 132px;
   position: relative;
   background: linear-gradient(to bottom, transparent -115%, #A7DBEF), url(https://i.imgur.com/SvG5TVx.png)center;
-  animation: slide 60s linear infinite;
+  animation: slide 50s linear infinite;
     
 }
 @keyframes slide {
