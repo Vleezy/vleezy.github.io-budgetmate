@@ -2,16 +2,17 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900|Roboto:300,400,500,700,900";
 
 
+/* HEADER, NAVIGATION & FOOTER CSS */
+
+
+
 body {
   background: #0c3a65;
   font: 14px "Poppins", "Roboto", sans-serif;
   color: #7ecaee;
   padding: 0;
   margin: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+
 }
 
 * {
@@ -96,16 +97,6 @@ body {
   position: relative;
 }
 
-/* #header-menu .user-menu .user-avatar-menu {
-  background: 0 -10px no-repeat;
-  height: 60px;
-  width: 64px;
-  float: left;
-  padding: 0;
-  position: relative;
-  top: -20px;
-  left: -15px;
-} */
 
 #header-menu .user-menu li {
   padding: 20px 15px;
@@ -341,6 +332,7 @@ body {
   text-align: center;
   width: 100%;
   margin: 20px 0 50px 0;
+
 }
 
 #footer-content .footer-links {
@@ -385,28 +377,4 @@ body {
   color: #425c73;
 }
 
-/* ALERT */
-.alert.red {
-  border: 2px solid #eb4d4b;
-  background-color: #cc4341;
-}
 
-.alert-wrapper{
-  display:flex;
-  max-width:100%;
-  align-items:center;
-  justify-content:center;
-}
-.alert {
-  box-shadow: 0 2px 0 1px rgba(0,0,0,.2);
-  margin-bottom: 15px;
-  margin-top:0;
-  border: 2px solid #fff;
-  background-color: #ececec;
-  color: #fff;
-  border-radius: 10px;
-  width: calc(100%);
-}
-.alert-message{
-  text-align:center;
-}

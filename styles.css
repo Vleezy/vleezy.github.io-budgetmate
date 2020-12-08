@@ -1,0 +1,44 @@
+
+/* ALERT */
+.alert.red {
+    border: 2px solid #eb4d4b;
+    background-color: #cc4341;
+  }
+  
+  .alert-wrapper{
+    display:flex;
+    max-width:100%;
+    align-items:center;
+    justify-content:center;
+  }
+  .alert {
+    box-shadow: 0 2px 0 1px rgba(0,0,0,.2);
+    border: 2px solid #fff;
+    background-color: #ececec;
+    color: #fff;
+    border-radius: 10px;
+    width: calc(100%);
+  }
+  .alert-message{
+    text-align:center;
+    margin-bottom:0;
+  }
+  
+
+
+  /* TABLE */
+
+  .table-title{
+    color:#7ecaee; 
+    margin-top:1em;
+  }
+  .table-design{
+    color:white; 
+    background-color:rgba(0, 0, 0, 0.35);
+    border: 5px solid rgba(0, 0, 0, 0.5);
+  }
+  .title-color{
+    color: #7ecaee ;
+    font-weight: 800;
+    
+  }
